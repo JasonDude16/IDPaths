@@ -1,0 +1,9 @@
+IDPaths.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.RProfile
+env/ 
+__pycache__/
+.DS_Store
