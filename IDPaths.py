@@ -536,7 +536,7 @@ class IDPathDataFrame():
           if isinstance(res, (Exception, AssertionError)):
             df_log.iloc[r_index, c_index] = str(res)
           else:
-            df_log.iloc[r_index, c_index] = 'SUCCESS'
+            df_log.iloc[r_index, c_index] = 'Read'
         if keep_df:
           if not isinstance(res, (Exception, AssertionError)):
             self.__df_dict[c][idx] = res
