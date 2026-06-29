@@ -7,9 +7,9 @@ import pandas as pd
 
 id_regex = 'BASE_[0-9]{3}'
 paths = {
-  'artifact wp': '/Users/jason/Desktop/test/artifact wp/*WP*.xlsx',
-  'artifact psg': '/Users/jason/Desktop/test/artifact psg/*.xlsx',
-  'hypnogram': '/Users/jason/Desktop/test/hypnogram/*xlsx'
+  'artifact wp': '/Users/jasondude/Library/CloudStorage/Box-Box/BASE/Data/PSG/Artifact Scoring/wptask/*WP*.xlsx',
+  'artifact psg': '/Users/jasondude/Library/CloudStorage/Box-Box/BASE/Data/PSG/Artifact Scoring/sleep/*.xlsx',
+  'hypnogram': '/Users/jasondude/Library/CloudStorage/Box-Box/BASE/Data/PSG/Epoch Reports/*.xlsx'
 }
 
 base = IDPaths(paths, id_regex, sort=True)
